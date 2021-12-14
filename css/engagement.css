@@ -1,0 +1,23 @@
+#engagementform{display: flex;
+    flex-direction: column;
+    
+    padding-top: 2vh;   
+}
+#engagementsection2{
+    padding-left: 5vw;
+}
+label{margin-top: 2vh;}
+
+#formquestion1{
+    display: flex;
+    flex-direction: row;
+
+}
+#foemquestion12{padding-left: 3vw;}
+.question{display: flex;
+    flex-direction: column;
+    padding-bottom: 2vh;
+}
+.answerbox{width: 30vw;
+    height: 4vh;}
+.classbuttons{width: 20vw;}

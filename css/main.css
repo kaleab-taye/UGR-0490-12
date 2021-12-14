@@ -1,0 +1,123 @@
+#headeritems {display: flex;
+        justify-content: flex-end;
+        
+        
+        }
+#headeritem1 {
+        border-right: 1px solid black;
+        padding-right: 2vw;
+        padding-bottom: 1vh;
+        }
+#headeritem2 {padding-left: 2vw;
+    }
+.headera{padding-left: 3vw;
+    padding-right: 2vw;}
+.headeritems { padding-top: 2vh;
+    border-bottom: 1px solid black;}
+
+body{background-color: rgb(22, 22, 22);
+    color: white;
+    
+    
+    
+}
+
+
+.navbuttonclass {border-left: none;
+    border-top-right-radius: 5%;
+    
+    border-bottom-right-radius: 5%;
+    height: 10vh;
+    width: inherit;
+    background-color: rgb(18, 18, 102);
+    color: white;
+    
+    border-top-width: 3px;
+    border-bottom: none;
+    border-color: white;
+    
+}
+color{color: rgb(7, 152, 196);}
+.navbuttonclass:hover{
+    width: 30vw;
+    font-size: larger;
+    box-shadow: 0 8px 16px 0 rgba(16, 3, 194, 0.2), 
+    0 6px 20px 0 rgba(16, 3, 194, 0.2);
+    z-index: 5;
+}
+#homebutton{ border-top: none;
+    border-top-right-radius: 0%;
+    
+    }
+#aboutbutton{
+    border-bottom-right-radius: 0%;}
+.rightaside{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 25vw;
+}
+#credentialsaside { display: flex;
+    justify-content: flex-end;
+    }
+
+    
+#maintop{display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-right: 5vw;
+    
+    
+}
+
+#mainclip{margin-top: 5vh;}
+
+#navigation {display: flex;
+        flex-direction: column;
+        width: 25vw;
+        margin-left: -2vw;
+        margin-top: 8vh;
+        justify-content: stretch;
+
+
+        
+        }
+.rightasideitem{padding-right: 8vw;
+    margin-left: 1vw;
+          }
+.classbuttons {padding: 10px;
+    margin-top: 4vh;
+    background-color: rgb(18, 18, 102);
+    color: white;
+}
+
+
+#mainpageparagraph{
+    color: white;
+}
+#thirdpartition{display: flex;
+        flex-direction: row;
+        justify-content: space-between;}
+#secondpartition{display: flex;
+        flex-direction: column;
+        padding-left: 10vw;
+        margin-top: 5vh;
+        }
+#forthpartition{width: inherit;
+        margin-right: 5vw;}
+
+#footeritemsbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:5vh 10vw
+}
+#footer1, #footer2, #footer3 {display: flex;
+    flex-direction: column;
+}
+a{
+    padding: 5vh 10vw;
+    margin-left: -4vw;
+    text-decoration: none;
+    color: inherit;
+}

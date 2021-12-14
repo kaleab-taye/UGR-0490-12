@@ -1,0 +1,23 @@
+#navigation{color: blue;}
+#addresslist{display: flex;
+        flex-direction: column;
+        align-content: space-between;
+    
+    }
+#addresslistsection{display: flex;
+        flex-direction: column;
+        padding-left: 7vw;}
+
+#sendmessagesection{display: flex;
+        flex-direction: column;
+        margin-top: 5vh;
+        padding-left: 3vw;
+        
+}
+#miniwindow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+}
+#sendbuttonid{width: 30vw;
+    align-self: center;}
