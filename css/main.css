@@ -45,6 +45,22 @@ color{color: rgb(7, 152, 196);}
     0 6px 20px 0 rgba(16, 3, 194, 0.2);
     z-index: 5;
 }
+.mnavbuttonclass{
+    border-left: none;
+    border-top-right-radius: 5%;
+    
+    border-bottom-right-radius: 5%;
+    height: 10vh;
+    width: inherit;
+    background-color: rgb(18, 18, 102);
+    color: white;
+    
+    border-top-width: 3px;
+    border-bottom: none;
+    border-color: white;
+    border-right-color:rgb(18, 18, 102);
+
+}
 #homebutton{ border-top: none;
     border-top-right-radius: 0%;
     
@@ -57,7 +73,7 @@ color{color: rgb(7, 152, 196);}
     flex-direction: column;
     width: 25vw;
 }
-#credentialsaside { display: flex;
+#credentialsaside , #engagementaside{ display: flex;
     justify-content: flex-end;
     }
 
@@ -84,6 +100,9 @@ color{color: rgb(7, 152, 196);}
         }
 .rightasideitem{padding-right: 8vw;
     margin-left: 1vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
           }
 .classbuttons {padding: 10px;
     margin-top: 4vh;
@@ -97,7 +116,10 @@ color{color: rgb(7, 152, 196);}
 }
 #thirdpartition{display: flex;
         flex-direction: row;
-        justify-content: space-between;}
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
 #secondpartition{display: flex;
         flex-direction: column;
         padding-left: 10vw;
@@ -115,9 +137,22 @@ color{color: rgb(7, 152, 196);}
 #footer1, #footer2, #footer3 {display: flex;
     flex-direction: column;
 }
-a{
+.navigationa{
     padding: 5vh 10vw;
     margin-left: -4vw;
     text-decoration: none;
     color: inherit;
 }
+
+.iconitem{
+    height: 1em;
+    width: 1em;
+}
+a{text-decoration: none;
+    color: white;
+    }
+#homerightsideitems{
+    
+    padding: 0px 0px;
+}
+
