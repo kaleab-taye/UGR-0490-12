@@ -35,6 +35,8 @@ body{background-color: rgb(22, 22, 22);
     border-top-width: 3px;
     border-bottom: none;
     border-color: white;
+    display: flex;
+    justify-content: center;
     
 }
 color{color: rgb(7, 152, 196);}
@@ -59,6 +61,11 @@ color{color: rgb(7, 152, 196);}
     border-bottom: none;
     border-color: white;
     border-right-color:rgb(18, 18, 102);
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bolder
 
 }
 #homebutton{ border-top: none;
@@ -156,3 +163,47 @@ a{text-decoration: none;
     padding: 0px 0px;
 }
 
+
+
+
+///////////////////////////////
+.bbutton {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.bbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.bbutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.bbutton:hover span {
+  padding-right: 25px;
+}
+
+.bbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/////////////////////////////
