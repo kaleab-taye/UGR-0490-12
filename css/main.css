@@ -156,6 +156,7 @@ li{list-style-type: none;}
 #footeritemsbox{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin:5vh 10vw
 }
@@ -232,8 +233,9 @@ a{text-decoration: none;
 
     }
     #footeritemsbox{
-        
-        margin:5vh -1vw
+        display: flex;
+        margin:5vh -1vw;
+        flex-wrap:wrap
     }    
     
 }
