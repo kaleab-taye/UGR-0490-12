@@ -184,8 +184,9 @@ a{text-decoration: none;
     padding: 0px 0px;
 }
 #menuicon{display: none;
-  
+  background-color: white;
 }
+
 @media screen and (max-width: 500px){
     body{
         width: inherit;
@@ -195,9 +196,10 @@ a{text-decoration: none;
         flex-direction: column;
         flex-wrap: nowrap;
         width: inherit;
+        
     }
     #menuicon{
-        
+        margin-bottom: -38px;
         align-self: flex-start;
         display: flex;
         
@@ -219,6 +221,9 @@ a{text-decoration: none;
         margin-top: 8vh;
         justify-content: stretch;
        
+        }
+        #navigation.active{
+            display: flex;
         }
     .navbuttonclass{
         padding: 0;
